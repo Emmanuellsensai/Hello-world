@@ -1,3 +1,7 @@
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/fed395ef-0838-41d0-b744-806a18e4661f" />
+
+
+
 package piscine
 
 import "github.com/01-edu/z01"
