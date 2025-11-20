@@ -3,6 +3,7 @@ This repository is for practicing the GitHub Flow.
 I'm aiming to be a skilled Data Engineer
 
 
+<img width="1194" height="720" alt="image" src="https://github.com/user-attachments/assets/d8a06951-9b50-48cb-8a28-63691c3d8998" />
 
 interviewn=`grep -H "licen" interviews/* |grep "\"" | cut -f1 -d ":" | rev | cut -f1 -d "-" | rev`
 interview="cat interviews/interview-$interviewn"
