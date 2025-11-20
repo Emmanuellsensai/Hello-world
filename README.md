@@ -1,4 +1,32 @@
-<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/d07bd7a7-8275-4ba2-b15d-6fbb54722a31" />
+package piscine
+
+import "github.com/01-edu/z01"
+
+func PrintComb2() {
+	for a := '0'; a <= '9'; a++ {
+		for b := '0'; b <= '9'; b++ {
+			for c := '0'; c <= '9'; c++ {
+				for d := b + 1; d <= '9' || c > '0'; d++ {
+					if d == ':' {
+						continue
+					}
+
+					z01.PrintRune(a)
+					z01.PrintRune(b)
+					z01.PrintRune(' ')
+					z01.PrintRune(c)
+					z01.PrintRune(d)
+
+					if !(a == '9' && b == '8' && c == '9' && d == '9') {
+						z01.PrintRune(',')
+						z01.PrintRune(' ')
+					}
+				}
+			}
+		}
+	}
+	z01.PrintRune('\n')
+}
 
 
 
