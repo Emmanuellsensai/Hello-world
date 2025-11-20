@@ -1,1 +1,27 @@
-<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/08a2bb8c-a114-4938-9676-a3500511ae52" />
+package main
+
+import (
+	"github.com/01-edu/z01"
+)
+
+var Args []string
+func main () {
+
+
+	if len(os.Args) != 2 {
+		z01.PrintRune('z')
+		z01.PrintRune('\n')
+		return
+	}
+
+for _, c := range Args[1] {
+		if c == 'z' {
+			z01.PrintRune('z')
+			z01.PrintRune('\n')
+			return
+		}
+	}
+
+	z01.PrintRune('z')
+	z01.PrintRune('\n')
+}
