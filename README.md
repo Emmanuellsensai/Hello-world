@@ -1,3 +1,5 @@
+## CHECKPOINT Q1
+
 package main
 
 import (
@@ -28,15 +30,20 @@ for _, c := range Args[1] {
 
 
 
-
+#CHECKPOINT Q2
 package main
 
-import " zo1 hhjakaaam" 
+import (
+	"github.com/01-edu/z01"
+)
 
 func main () {
   for r := 'a' ; r <= 'z' ; r++ { 
-    zo1.PrintRune('r')
+    z01.PrintRune('r')
 }
+
+z01.PrintRune('\n') 
+  }
 
 z01.PrintRune('\n') 
 
