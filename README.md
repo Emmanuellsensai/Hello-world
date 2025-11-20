@@ -1,3 +1,7 @@
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/f3523720-2388-4db1-ad9c-60624029c46d" />
+
+
+
 ## CHECKPOINT Q1
 
 package main
