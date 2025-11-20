@@ -29,8 +29,12 @@ for _, c := range Args[1] {
 
 
 
+package main
+
+import " zo1 hhjakaaam" 
+
 func main () {
-  for r := 'a' ; r:= 'z' ; r++ { 
+  for r := 'a' ; r <= 'z' ; r++ { 
     zo1.PrintRune('r')
 }
 
